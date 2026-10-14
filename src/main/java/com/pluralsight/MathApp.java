@@ -5,7 +5,7 @@ public class MathApp {
         // Question 1: highest salary
         double bobSalary = 65_000.50;
         double garySalary = 72_500.75;
-        double highestSalary = Math.max(bobSalary,garySalary);
+        double highestSalary = Math.max(bobSalary ,garySalary);
 
         System.out.println("The highest salary is $"+ highestSalary);
 
@@ -53,7 +53,7 @@ public class MathApp {
         // Question 8: minutes in 24 days
         int days = 24;
         int hoursPerDay = 24;
-        int minutesPerHour = 60 ;
+        int minutesPerHour = 60;
 
         int totalMinutes = days * hoursPerDay * minutesPerHour ;
         System.out.println("Total minutes in "+ days + " days are "+ totalMinutes);
