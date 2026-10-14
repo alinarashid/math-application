@@ -41,6 +41,10 @@ public class MathApp {
         System.out.println("The distance between (5, 10) and (85, 50) is " + distance);
 
 
+        // Question 6: absolute value
+        double negativeNumber = -3.8;
+        double absoluteValue = Math.abs(negativeNumber);
+        System.out.println("The absolute value of " + negativeNumber + " is " + absoluteValue);
 
 
 
