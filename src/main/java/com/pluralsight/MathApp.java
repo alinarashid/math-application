@@ -46,6 +46,9 @@ public class MathApp {
         double absoluteValue = Math.abs(negativeNumber);
         System.out.println("The absolute value of " + negativeNumber + " is " + absoluteValue);
 
+        // Question 7: random number between 0 and 1
+        double randomNumber = Math.random();
+        System.out.println("A random number between 0 and 1: " + randomNumber);
 
 
 
